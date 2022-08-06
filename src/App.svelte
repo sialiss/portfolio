@@ -1,15 +1,11 @@
 <script lang="ts">
+	import Menu from './Menu.svelte';
 	// здесь экспорт переменных из ts, можно использовать экспортированные переменные в файле
 	// export let name: string;
 </script>
 
 <main>
-	<div class="menu">
-		<h2>Menu</h2>
-		<h2>Menu</h2>
-		<h2>Menu</h2>
-		<h2>Menu</h2>
-	</div>
+	<Menu/>
 	<div class="wrapper">
 		<h1>camellia</h1>
 		<p>Welcome to my portfolio!</p>
@@ -29,11 +25,6 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-	}
-
-	.menu {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
 	}
 
 	.wrapper {

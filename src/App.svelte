@@ -4,8 +4,23 @@
 </script>
 
 <main>
-	<h1>Camellia</h1>
-	<p>Welcome to my portfolio!</p>
+	<div class="menu">
+		<h2>Menu</h2>
+		<h2>Menu</h2>
+		<h2>Menu</h2>
+		<h2>Menu</h2>
+	</div>
+	<div class="wrapper">
+		<h1>camellia</h1>
+		<p>Welcome to my portfolio!</p>
+		<p>Welcome to my portfolio!</p>
+		<p>Welcome to my portfolio!</p>
+		<p>Welcome to my portfolio!</p>
+		<p>Welcome to my portfolio!</p>
+		<p>Welcome to my portfolio!</p>
+		<p>Welcome to my portfolio!</p>
+	</div>
+
 </main>
 
 <style>
@@ -14,6 +29,15 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
+	}
+
+	.menu {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	.wrapper {
+		display: grid;
 	}
 
 	h1 {

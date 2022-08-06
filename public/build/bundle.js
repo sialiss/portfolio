@@ -334,22 +334,90 @@ var app = (function () {
 
     function create_fragment(ctx) {
     	let main;
-    	let h1;
+    	let div0;
+    	let h20;
     	let t1;
-    	let p;
+    	let h21;
+    	let t3;
+    	let h22;
+    	let t5;
+    	let h23;
+    	let t7;
+    	let div1;
+    	let h1;
+    	let t9;
+    	let p0;
+    	let t11;
+    	let p1;
+    	let t13;
+    	let p2;
+    	let t15;
+    	let p3;
+    	let t17;
+    	let p4;
+    	let t19;
+    	let p5;
+    	let t21;
+    	let p6;
 
     	const block = {
     		c: function create() {
     			main = element("main");
-    			h1 = element("h1");
-    			h1.textContent = "Camellia";
+    			div0 = element("div");
+    			h20 = element("h2");
+    			h20.textContent = "Menu";
     			t1 = space();
-    			p = element("p");
-    			p.textContent = "Welcome to my portfolio!";
-    			attr_dev(h1, "class", "svelte-1tky8bj");
-    			add_location(h1, file, 5, 1, 157);
-    			add_location(p, file, 6, 1, 176);
-    			attr_dev(main, "class", "svelte-1tky8bj");
+    			h21 = element("h2");
+    			h21.textContent = "Menu";
+    			t3 = space();
+    			h22 = element("h2");
+    			h22.textContent = "Menu";
+    			t5 = space();
+    			h23 = element("h2");
+    			h23.textContent = "Menu";
+    			t7 = space();
+    			div1 = element("div");
+    			h1 = element("h1");
+    			h1.textContent = "camellia";
+    			t9 = space();
+    			p0 = element("p");
+    			p0.textContent = "Welcome to my portfolio!";
+    			t11 = space();
+    			p1 = element("p");
+    			p1.textContent = "Welcome to my portfolio!";
+    			t13 = space();
+    			p2 = element("p");
+    			p2.textContent = "Welcome to my portfolio!";
+    			t15 = space();
+    			p3 = element("p");
+    			p3.textContent = "Welcome to my portfolio!";
+    			t17 = space();
+    			p4 = element("p");
+    			p4.textContent = "Welcome to my portfolio!";
+    			t19 = space();
+    			p5 = element("p");
+    			p5.textContent = "Welcome to my portfolio!";
+    			t21 = space();
+    			p6 = element("p");
+    			p6.textContent = "Welcome to my portfolio!";
+    			add_location(h20, file, 6, 2, 178);
+    			add_location(h21, file, 7, 2, 194);
+    			add_location(h22, file, 8, 2, 210);
+    			add_location(h23, file, 9, 2, 226);
+    			attr_dev(div0, "class", "menu svelte-quc6t9");
+    			add_location(div0, file, 5, 1, 157);
+    			attr_dev(h1, "class", "svelte-quc6t9");
+    			add_location(h1, file, 12, 2, 273);
+    			add_location(p0, file, 13, 2, 293);
+    			add_location(p1, file, 14, 2, 327);
+    			add_location(p2, file, 15, 2, 361);
+    			add_location(p3, file, 16, 2, 395);
+    			add_location(p4, file, 17, 2, 429);
+    			add_location(p5, file, 18, 2, 463);
+    			add_location(p6, file, 19, 2, 497);
+    			attr_dev(div1, "class", "wrapper svelte-quc6t9");
+    			add_location(div1, file, 11, 1, 249);
+    			attr_dev(main, "class", "svelte-quc6t9");
     			add_location(main, file, 4, 0, 149);
     		},
     		l: function claim(nodes) {
@@ -357,9 +425,31 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, main, anchor);
-    			append_dev(main, h1);
-    			append_dev(main, t1);
-    			append_dev(main, p);
+    			append_dev(main, div0);
+    			append_dev(div0, h20);
+    			append_dev(div0, t1);
+    			append_dev(div0, h21);
+    			append_dev(div0, t3);
+    			append_dev(div0, h22);
+    			append_dev(div0, t5);
+    			append_dev(div0, h23);
+    			append_dev(main, t7);
+    			append_dev(main, div1);
+    			append_dev(div1, h1);
+    			append_dev(div1, t9);
+    			append_dev(div1, p0);
+    			append_dev(div1, t11);
+    			append_dev(div1, p1);
+    			append_dev(div1, t13);
+    			append_dev(div1, p2);
+    			append_dev(div1, t15);
+    			append_dev(div1, p3);
+    			append_dev(div1, t17);
+    			append_dev(div1, p4);
+    			append_dev(div1, t19);
+    			append_dev(div1, p5);
+    			append_dev(div1, t21);
+    			append_dev(div1, p6);
     		},
     		p: noop,
     		i: noop,

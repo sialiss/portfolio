@@ -1,0 +1,1 @@
+import{S as t,i as n,s}from"../chunks/index-c5e1933f.js";import{b as o}from"../chunks/env-9f06d149.js";function u(r,e,a){return[o,!0]}class d extends t{constructor(e){super(),n(this,e,u,null,s,{router:0,prerender:1})}get router(){return this.$$.ctx[0]}get prerender(){return this.$$.ctx[1]}}export{d as default};

@@ -1,6 +1,7 @@
 <script lang="ts">
-	// здесь экспорт переменных из ts, можно использовать экспортированные переменные в файле
-	// export let name: string;
+	import { browser } from '$app/env';
+	export const router = browser;
+	export const prerender = true;
 </script>
 
 <main>

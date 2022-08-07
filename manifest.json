@@ -11,10 +11,6 @@
     "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
   },
-  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
-  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
@@ -23,36 +19,36 @@
     "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
   },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
+  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
     "file": "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-239bed59.js",
+    "file": "_app/immutable/start-9e04f406.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-c5e1933f.js",
-      "_singletons-eca981c1.js"
+      "_index-469a744f.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/about.svelte",
       "src/routes/frontend.svelte",
       "src/routes/gamedev.svelte",
-      "src/routes/index.svelte",
-      "src/routes/index2.svelte",
-      "src/routes/todos/index.svelte"
+      "src/routes/index.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "_app/immutable/pages/__layout.svelte-c04f33cf.js",
+    "file": "_app/immutable/pages/__layout.svelte-e60d1056.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5e1933f.js"
+      "_index-469a744f.js"
     ],
     "css": [
       "_app/immutable/assets/__layout-c0ad3f3e.css"
@@ -68,107 +64,58 @@
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "_app/immutable/error.svelte-d1d8e76f.js",
+    "file": "_app/immutable/error.svelte-17a7314e.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5e1933f.js"
-    ]
-  },
-  "src/routes/about.svelte": {
-    "file": "_app/immutable/pages/about.svelte-8271bc7d.js",
-    "src": "src/routes/about.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-c5e1933f.js",
-      "_env-9f06d149.js"
-    ],
-    "css": [
-      "_app/immutable/assets/about-9682aba9.css"
+      "_index-469a744f.js"
     ]
   },
   "src/routes/frontend.svelte": {
-    "file": "_app/immutable/pages/frontend.svelte-83f5b486.js",
+    "file": "_app/immutable/pages/frontend.svelte-56ce836e.js",
     "src": "src/routes/frontend.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5e1933f.js",
-      "_env-9f06d149.js"
+      "_index-469a744f.js",
+      "_env-ecd0797b.js"
     ],
     "css": [
       "_app/immutable/assets/frontend-8af49658.css"
     ]
   },
   "src/routes/gamedev.svelte": {
-    "file": "_app/immutable/pages/gamedev.svelte-00aa13a3.js",
+    "file": "_app/immutable/pages/gamedev.svelte-2ddfa329.js",
     "src": "src/routes/gamedev.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5e1933f.js",
-      "_env-9f06d149.js"
+      "_index-469a744f.js",
+      "_env-ecd0797b.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-cf9dddf2.js",
+    "file": "_app/immutable/pages/index.svelte-a75f2382.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5e1933f.js"
+      "_index-469a744f.js"
     ],
     "css": [
       "_app/immutable/assets/index-8af49658.css"
     ]
   },
-  "src/routes/index2.svelte": {
-    "file": "_app/immutable/pages/index2.svelte-9dab5d57.js",
-    "src": "src/routes/index2.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-c5e1933f.js"
-    ],
-    "css": [
-      "_app/immutable/assets/index2-bcb7d8d0.css"
-    ]
+  "_index-469a744f.js": {
+    "file": "_app/immutable/chunks/index-469a744f.js"
   },
-  "src/routes/todos/index.svelte": {
-    "file": "_app/immutable/pages/todos/index.svelte-14a5a2c4.js",
-    "src": "src/routes/todos/index.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-c5e1933f.js",
-      "_singletons-eca981c1.js"
-    ],
-    "css": [
-      "_app/immutable/assets/index-5c3529b5.css"
-    ]
-  },
-  "_index-c5e1933f.js": {
-    "file": "_app/immutable/chunks/index-c5e1933f.js"
-  },
-  "_singletons-eca981c1.js": {
-    "file": "_app/immutable/chunks/singletons-eca981c1.js"
-  },
-  "_env-9f06d149.js": {
-    "file": "_app/immutable/chunks/env-9f06d149.js"
+  "_env-ecd0797b.js": {
+    "file": "_app/immutable/chunks/env-ecd0797b.js"
   },
   "src/routes/__layout.css": {
     "file": "_app/immutable/assets/__layout-c0ad3f3e.css",
     "src": "src/routes/__layout.css"
-  },
-  "src/routes/about.css": {
-    "file": "_app/immutable/assets/about-9682aba9.css",
-    "src": "src/routes/about.css"
-  },
-  "src/routes/index2.css": {
-    "file": "_app/immutable/assets/index2-bcb7d8d0.css",
-    "src": "src/routes/index2.css"
   },
   "src/routes/index.css": {
     "file": "_app/immutable/assets/index-8af49658.css",
@@ -177,9 +124,5 @@
   "src/routes/frontend.css": {
     "file": "_app/immutable/assets/frontend-8af49658.css",
     "src": "src/routes/frontend.css"
-  },
-  "src/routes/todos/index.css": {
-    "file": "_app/immutable/assets/index-5c3529b5.css",
-    "src": "src/routes/todos/index.css"
   }
 }

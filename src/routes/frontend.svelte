@@ -1,19 +1,11 @@
 <script lang="ts">
-	import Menu from './Menu.svelte';
 	// здесь экспорт переменных из ts, можно использовать экспортированные переменные в файле
 	// export let name: string;
 </script>
 
 <main>
-	<Menu/>
 	<div class="wrapper">
-		<h1>camellia</h1>
-		<p>Welcome to my portfolio!</p>
-		<p>Welcome to my portfolio!</p>
-		<p>Welcome to my portfolio!</p>
-		<p>Welcome to my portfolio!</p>
-		<p>Welcome to my portfolio!</p>
-		<p>Welcome to my portfolio!</p>
+		<h1>Frontend</h1>
 		<p>Welcome to my portfolio!</p>
 	</div>
 

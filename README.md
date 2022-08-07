@@ -1,30 +1,38 @@
-# portfolio
+# create-svelte
 
-Это сайт с примерами моих работ.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-<!-- 
-TS + Svelte
+## Creating a project
 
-Three.js
-iFrame 
+If you're seeing this, you've probably already done this step. Congrats!
 
-ключевые слова: профессионализм, минимализм, мягкость
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-главная страница:
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-3д штуки
-описание, обо мне
-ссылки на соцсети
+## Developing
 
-страница работ:
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-сверху меню для переключения с кратким названием
+```bash
+npm run dev
 
-у каждой работы описание (когда, зачем, почему, как, что именно я делала), ссылка на репозиторий в гитхабе
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-работы: 
-карточки, тестовое, кликер, сайтик игрушка, раврперсоны, алисочка, какая-нибудь 2д игра по туториалу в годоте, отдельный сайтик с 3д штуками
+## Building
 
-возможно! посмотреть можно ли встроить в это эмуляцию открытия новой вкладки, то есть чтобы в меню при переключении сайтики можно было открыть там же на странице нажав на кнопку, а не открывая новую вкладку
-посмотреть для этого iframe
---!>
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

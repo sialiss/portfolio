@@ -22,7 +22,7 @@
 <style>
 	main {
 		text-align: center;
-		padding: 1em;
+		padding: 1em 0 1em 0;
 		max-width: 240px;
 		margin: 0 auto;
 	}
@@ -32,7 +32,7 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: #ff3d3d;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;

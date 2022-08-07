@@ -353,54 +353,78 @@ var app = (function () {
     const file$1 = "src\\Menu.svelte";
 
     function create_fragment$1(ctx) {
-    	let div;
-    	let h20;
-    	let t1;
-    	let h21;
+    	let div2;
+    	let div0;
+    	let t0;
+    	let a0;
+    	let t2;
     	let t3;
-    	let h22;
+    	let div1;
+    	let a1;
     	let t5;
-    	let h23;
+    	let a2;
+    	let t7;
+    	let a3;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			h20 = element("h2");
-    			h20.textContent = "Menu";
-    			t1 = space();
-    			h21 = element("h2");
-    			h21.textContent = "Menu";
+    			div2 = element("div");
+    			div0 = element("div");
+    			t0 = text("telegram ");
+    			a0 = element("a");
+    			a0.textContent = "@saphielle";
+    			t2 = text(" | camellia.sialiss@gmail.com");
     			t3 = space();
-    			h22 = element("h2");
-    			h22.textContent = "Menu";
+    			div1 = element("div");
+    			a1 = element("a");
+    			a1.textContent = "About me";
     			t5 = space();
-    			h23 = element("h2");
-    			h23.textContent = "Menu";
-    			add_location(h20, file$1, 3, 4, 55);
-    			add_location(h21, file$1, 4, 4, 74);
-    			add_location(h22, file$1, 5, 4, 93);
-    			add_location(h23, file$1, 6, 4, 112);
-    			attr_dev(div, "class", "menu svelte-jknagd");
-    			add_location(div, file$1, 2, 0, 31);
+    			a2 = element("a");
+    			a2.textContent = "Frontend";
+    			t7 = space();
+    			a3 = element("a");
+    			a3.textContent = "Gamedev";
+    			attr_dev(a0, "href", "https://t.me/saphielle");
+    			add_location(a0, file$1, 4, 17, 96);
+    			attr_dev(div0, "class", "contacts svelte-15fz91h");
+    			add_location(div0, file$1, 3, 4, 55);
+    			attr_dev(a1, "href", "#navigation");
+    			attr_dev(a1, "class", "link highlighted svelte-15fz91h");
+    			add_location(a1, file$1, 7, 8, 234);
+    			attr_dev(a2, "href", "/frontend");
+    			attr_dev(a2, "class", "link svelte-15fz91h");
+    			add_location(a2, file$1, 8, 8, 303);
+    			attr_dev(a3, "href", "/gamedev");
+    			attr_dev(a3, "class", "link svelte-15fz91h");
+    			add_location(a3, file$1, 9, 8, 358);
+    			attr_dev(div1, "class", "menu svelte-15fz91h");
+    			attr_dev(div1, "id", "navigation");
+    			add_location(div1, file$1, 6, 4, 190);
+    			attr_dev(div2, "class", "main svelte-15fz91h");
+    			add_location(div2, file$1, 2, 0, 31);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h20);
-    			append_dev(div, t1);
-    			append_dev(div, h21);
-    			append_dev(div, t3);
-    			append_dev(div, h22);
-    			append_dev(div, t5);
-    			append_dev(div, h23);
+    			insert_dev(target, div2, anchor);
+    			append_dev(div2, div0);
+    			append_dev(div0, t0);
+    			append_dev(div0, a0);
+    			append_dev(div0, t2);
+    			append_dev(div2, t3);
+    			append_dev(div2, div1);
+    			append_dev(div1, a1);
+    			append_dev(div1, t5);
+    			append_dev(div1, a2);
+    			append_dev(div1, t7);
+    			append_dev(div1, a3);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div2);
     		}
     	};
 
@@ -496,7 +520,7 @@ var app = (function () {
     			t14 = space();
     			p6 = element("p");
     			p6.textContent = "Welcome to my portfolio!";
-    			attr_dev(h1, "class", "svelte-1bo3e4z");
+    			attr_dev(h1, "class", "svelte-7own5g");
     			add_location(h1, file, 8, 2, 225);
     			add_location(p0, file, 9, 2, 245);
     			add_location(p1, file, 10, 2, 279);
@@ -505,9 +529,9 @@ var app = (function () {
     			add_location(p4, file, 13, 2, 381);
     			add_location(p5, file, 14, 2, 415);
     			add_location(p6, file, 15, 2, 449);
-    			attr_dev(div, "class", "wrapper svelte-1bo3e4z");
+    			attr_dev(div, "class", "wrapper svelte-7own5g");
     			add_location(div, file, 7, 1, 201);
-    			attr_dev(main, "class", "svelte-1bo3e4z");
+    			attr_dev(main, "class", "svelte-7own5g");
     			add_location(main, file, 5, 0, 184);
     		},
     		l: function claim(nodes) {

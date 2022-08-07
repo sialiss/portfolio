@@ -9,11 +9,11 @@
 	<nav>
 		<ul>
 			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">About me</a></li>
-			<li class:active={$page.url.pathname === '/frontend'}>
-				<a sveltekit:prefetch href="/frontend">frontend</a>
+			<li class:active={$page.url.pathname === './frontend'}>
+				<a sveltekit:prefetch href="./frontend">frontend</a>
 			</li>
-			<li class:active={$page.url.pathname === '/gamedev'}>
-				<a sveltekit:prefetch href="/gamedev">gamedev</a>
+			<li class:active={$page.url.pathname === './gamedev'}>
+				<a sveltekit:prefetch href="./gamedev">gamedev</a>
 			</li>
 		</ul>
 	</nav>

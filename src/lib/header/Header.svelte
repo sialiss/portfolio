@@ -1,19 +1,20 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { base } from "$app/paths";
 </script>
 
 <header>
 	<div class="contacts">
-        telegram <a href="https://t.me/saphielle">@saphielle</a> | camellia.sialiss@gmail.com
+        telegram <a href="https://t.me/saphielle">@saphielle</a> | <a href="https://github.com/sialiss">github</a>
     </div>
 	<nav>
 		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">About me</a></li>
-			<li class:active={$page.url.pathname === './frontend'}>
-				<a sveltekit:prefetch href="./frontend">frontend</a>
+			<li class:active={[base, base+"/"].includes($page.url.pathname)}><a sveltekit:prefetch href="{base}/">About me</a></li>
+			<li class:active={$page.url.pathname === base+'/frontend'}>
+				<a sveltekit:prefetch href="{base}/frontend">frontend</a>
 			</li>
-			<li class:active={$page.url.pathname === './gamedev'}>
-				<a sveltekit:prefetch href="./gamedev">gamedev</a>
+			<li class:active={$page.url.pathname === base+'/gamedev'}>
+				<a sveltekit:prefetch href="{base}/gamedev">gamedev</a>
 			</li>
 		</ul>
 	</nav>

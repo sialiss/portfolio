@@ -1,6 +1,6 @@
 <script lang="ts">
 	// здесь экспорт переменных из ts, можно использовать экспортированные переменные в файле
-	export const prerender = true;
+	import { assets } from "$app/paths";
 </script>
 
 <main>

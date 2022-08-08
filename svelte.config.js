@@ -1,7 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-static';
 
-const dev = process.env.NODE_ENV === 'deploy';
+const dev = process.env.MODE === "development"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,10 +11,11 @@ const config = {
 	kit: {
 		// This is needed for github pages
 		paths: {
-			// base: dev ? '' : '/portfolio',
-			assets : dev ? '' : 'https://sialiss.github.io/portfolio'
+			base: dev ? '' : '/portfolio',
 		},
-		prerender: { default: true },
+		prerender: {
+			default: true
+		},
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs',

@@ -1,8 +1,4 @@
 {
-  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2"
-  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
@@ -14,6 +10,10 @@
   "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
@@ -28,11 +28,12 @@
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-94d3af57.js",
+    "file": "_app/immutable/start-787b89dd.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-469a744f.js"
+      "_index-469a744f.js",
+      "_paths-b9644fda.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -43,15 +44,16 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "_app/immutable/pages/__layout.svelte-714a7a6f.js",
+    "file": "_app/immutable/pages/__layout.svelte-bbdcdfa5.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-469a744f.js"
+      "_index-469a744f.js",
+      "_paths-b9644fda.js"
     ],
     "css": [
-      "_app/immutable/assets/__layout-1b0f8f56.css"
+      "_app/immutable/assets/__layout-e335a7da.css"
     ],
     "assets": [
       "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
@@ -73,7 +75,7 @@
     ]
   },
   "src/routes/frontend.svelte": {
-    "file": "_app/immutable/pages/frontend.svelte-bc43dcdc.js",
+    "file": "_app/immutable/pages/frontend.svelte-0f9c8e46.js",
     "src": "src/routes/frontend.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -85,7 +87,7 @@
     ]
   },
   "src/routes/gamedev.svelte": {
-    "file": "_app/immutable/pages/gamedev.svelte-77f00273.js",
+    "file": "_app/immutable/pages/gamedev.svelte-d3611ffe.js",
     "src": "src/routes/gamedev.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -94,7 +96,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-a75f2382.js",
+    "file": "_app/immutable/pages/index.svelte-5f13b27f.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -108,16 +110,19 @@
   "_index-469a744f.js": {
     "file": "_app/immutable/chunks/index-469a744f.js"
   },
-  "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-1b0f8f56.css",
-    "src": "src/routes/__layout.css"
+  "_paths-b9644fda.js": {
+    "file": "_app/immutable/chunks/paths-b9644fda.js"
+  },
+  "src/routes/frontend.css": {
+    "file": "_app/immutable/assets/frontend-8af49658.css",
+    "src": "src/routes/frontend.css"
   },
   "src/routes/index.css": {
     "file": "_app/immutable/assets/index-8af49658.css",
     "src": "src/routes/index.css"
   },
-  "src/routes/frontend.css": {
-    "file": "_app/immutable/assets/frontend-8af49658.css",
-    "src": "src/routes/frontend.css"
+  "src/routes/__layout.css": {
+    "file": "_app/immutable/assets/__layout-e335a7da.css",
+    "src": "src/routes/__layout.css"
   }
 }

@@ -2,27 +2,11 @@
 
 </script>
 
-<main>
-	<div class="wrapper">
-		<h1>Gamedev</h1>
-		<p>Welcome to my portfolio!</p>
-	</div>
-</main>
+<div class="wrapper">
+    <h1>Gamedev</h1>
+    <p>Welcome to my portfolio!</p>
+</div>
 
 <style>
-	main {
-		text-align: center;
-		max-width: 240px;
-		margin: 0 auto;
-	}
 
-	.wrapper {
-		display: grid;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>

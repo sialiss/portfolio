@@ -3,7 +3,7 @@
 	import { base } from "$app/paths";
 </script>
 
-<header>
+<header class="wrapper">
 	<div class="contacts">
         telegram <a href="https://t.me/saphielle">@saphielle</a> | <a href="https://github.com/sialiss">github</a>
     </div>
@@ -21,10 +21,6 @@
 </header>
 
 <style>
-	header {
-		display: grid;
-	}
-
 	.contacts {
         text-align: right;
         padding: 0.7em;

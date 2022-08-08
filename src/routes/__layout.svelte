@@ -19,5 +19,12 @@
 		max-width: 1024px;
 		margin: 0 auto;
 		box-sizing: border-box;
+		text-align: center;
+	}
+
+	@media (min-width: 640px) {
+		main {
+			max-width: none;
+		}
 	}
 </style>

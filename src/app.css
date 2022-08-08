@@ -56,6 +56,10 @@ h2 {
 	font-size: 1rem;
 }
 
+.wrapper {
+	display: grid;
+}
+
 pre {
 	font-size: 16px;
 	font-family: var(--font-mono);

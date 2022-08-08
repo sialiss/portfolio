@@ -29,7 +29,6 @@
         text-align: right;
         padding: 0.7em;
 		font-weight: 100;
-        /* padding-top: 0; */
     }
 
 	nav {
@@ -79,19 +78,7 @@
 		height: 100%;
 		align-items: center;
 		justify-content: center;
-		/* padding: 0 1em; */
-		color: var(--heading-color);
-		font-weight: 100;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
-		text-decoration: none;
-		transition: color 0.3s linear;
-		transition: background-color 0.3s linear;
-		color: #ff3d3d;
-	}
-
-	a:hover {
-		background-color: #ff3d3d;
-		color: black;
 	}
 </style>

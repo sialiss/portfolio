@@ -20,20 +20,12 @@
 <style>
 	main {
 		text-align: center;
-		padding: 1em 0 1em 0;
 		max-width: 240px;
 		margin: 0 auto;
 	}
 
 	.wrapper {
 		display: grid;
-	}
-
-	h1 {
-		color: #ff3d3d;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
 	}
 
 	@media (min-width: 640px) {

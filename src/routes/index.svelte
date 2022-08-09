@@ -36,12 +36,4 @@
 	img {
 		justify-self: center;
 	}
-
-	.text-center {
-		text-align: center;
-	}
-
-	.text-justify {
-		text-align: justify;
-	}
 </style>

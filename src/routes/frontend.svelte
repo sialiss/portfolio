@@ -3,21 +3,18 @@
 	import { base } from "$app/paths";
 </script>
 
-<div class="wrapper">
-	<h1>My projects</h1>
-	<div class="wrapper content">
-		<a class="cell wrapper" href="{base}/project">
-			<img src="{assets}/cards.png" alt="cards">
-			<h2>Название</h2>
-			<p>Стек</p>
-		</a>
-		<a class="cell wrapper" href="{base}/project">
-			<img src="{assets}/cats.png" alt="cats">
-			<h2>Название</h2>
-			<p>Стек</p>
-		</a>
-	</div>
-
+<h1>My projects</h1>
+<div class="wrapper content">
+	<a class="cell wrapper" href="{base}/project">
+		<img src="{assets}/cards.png" alt="cards">
+		<h2>Название</h2>
+		<p>Стек</p>
+	</a>
+	<a class="cell wrapper" href="{base}/project">
+		<img src="{assets}/cats.png" alt="cats">
+		<h2>Название</h2>
+		<p>Стек</p>
+	</a>
 </div>
 
 <style>

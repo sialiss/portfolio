@@ -11,14 +11,12 @@
 
 <style>
 	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
+		display: grid;
 		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
+		max-width: 100%;
 		margin: 0 auto;
-		box-sizing: border-box;
+		/* box-sizing: border-box; */
+		justify-content: center;
 	}
 
 	/* @media (min-width: 640px) {

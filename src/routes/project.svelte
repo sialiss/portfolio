@@ -2,12 +2,18 @@
 
 </script>
 
-<div class="main">
-    <h1>name</h1>
-    <iframe id="inlineFrameExample"
+<div class="main wrapper">
+    <div class="frame">
+        <iframe id="inlineFrameExample"
 			title="Inline Frame Example"
 			src="https://sialiss.github.io/test-infotecs/">
-	</iframe>
+	    </iframe>
+    </div>
+    <div class="about">
+        <h1>name</h1>
+        <p>text</p>
+    </div>
+
 </div>
 
 <style>
@@ -16,7 +22,21 @@
         height: 100%;
     }
 
-    /* .main {
-        height: calc(100vh - 200px);
+    .main {
+        /* max-width: 100%;
+        height: 100%; */
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .frame {
+        max-width: 100%;
+    }
+
+    .about {
+        padding: 20px;
+    }
+
+    /* @media {
+
     } */
 </style>

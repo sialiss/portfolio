@@ -11,6 +11,7 @@
     </div>
     <div class="about">
         <h1>name</h1>
+        <a href="">GitHub</a>
         <p>text</p>
     </div>
 

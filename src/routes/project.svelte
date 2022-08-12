@@ -18,18 +18,20 @@
 
 <style>
     iframe {
+        border: 0;
         width: 100%;
         height: 100%;
     }
 
     .main {
-        /* max-width: 100%;
-        height: 100%; */
+        width: 100%;
+        height: 100%;
         grid-template-columns: 3fr 1fr;
     }
 
     .frame {
         max-width: 100%;
+        width: 100%;
     }
 
     .about {

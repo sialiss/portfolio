@@ -11,12 +11,15 @@
 
 <style>
 	main {
-		display: grid;
+		/* display: grid;
+		grid-template-columns: 1fr; */
 		padding: 1rem;
+		width: 100%;
+		/* height: 100%; */
 		max-width: 100%;
+		max-height: 100%;
 		margin: 0 auto;
-		/* box-sizing: border-box; */
-		justify-content: center;
+		box-sizing: border-box;
 	}
 
 	/* @media (min-width: 640px) {

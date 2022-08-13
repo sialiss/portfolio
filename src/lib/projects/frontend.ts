@@ -4,20 +4,39 @@ export const projects = [
         name: "Cards",
         preview: "/images/cards.png",
         link: "/project",
-        stack: "JS, React"
+        stack: "JS, React",
+        iframe_link: "https://sialiss.github.io/cards/",
+        about: "text",
+        github: "https://github.com/sialiss/cards",
     },
     {
         id: "json_table",
         name: "JSON Table",
         preview: "/images/table.png",
         link: "/project",
-        stack: "JS"
+        stack: "JS",
+        iframe_link: "https://sialiss.github.io/test-infotecs/",
+        about: "text",
+        github: "https://github.com/sialiss/test-infotecs",
     },
     {
         id: "kotoglad",
         name: "Kotoglad",
         preview: "/images/cats.png",
         link: "/project",
-        stack: "JS"
-    }
+        stack: "JS",
+        iframe_link: "https://sialiss.github.io/Clicker/",
+        about: "text",
+        github: "https://github.com/sialiss/Clicker",
+    },
+    // {
+    //     project: "",
+    //     name: "",
+    //     preview: "/images/name.png",
+    //     link: "/project",
+    //     stack: "",
+    //     iframe_link: "",
+    //     about: "text",
+    //     github: "",
+    // }
 ]

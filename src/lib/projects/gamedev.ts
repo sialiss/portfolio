@@ -6,5 +6,7 @@ export const projects = [
         link: "/project",
         stack: "Godot",
         iframe_link: "https://itch.io/embed-upload/6179916?color=333333",
+        about: "text",
+        github: "https://github.com/sialiss/GMTK-gamejam2022",
     },
 ]

@@ -9,7 +9,7 @@ export const projects = [
     {
         id: "json_table",
         name: "JSON Table",
-        preview: "/images/cards.png",
+        preview: "/images/table.png",
         link: "/project",
         stack: "JS"
     },

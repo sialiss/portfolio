@@ -2,21 +2,17 @@
 	import { assets } from "$app/paths";
 	import { base } from "$app/paths";
 	import { projects } from "$lib/projects/frontend";
-
 </script>
 
 <h1>My projects</h1>
 <div class="wrapper content">
-	<a class="cell wrapper" href="{base}{projects[0]["link"]}">
-		<img src="{assets}{projects[0]["preview"]}" alt="cards">
-		<h2>{projects[0]["name"]}</h2>
-		<p>{projects[0]["stack"]}</p>
-	</a>
-	<a class="cell wrapper" href="{base}/project">
-		<img src="{assets}/images/cats.png" alt="cats">
-		<h2>Название</h2>
-		<p>Стек</p>
-	</a>
+	{#each projects as project}
+		<a class="cell wrapper" href="{base}{project["link"]}">
+			<img src="{assets}{project["preview"]}" alt="project preview">
+			<h2>{project["name"]}</h2>
+			<p>{project["stack"]}</p>
+		</a>
+	{/each}
 </div>
 
 <style>

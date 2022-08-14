@@ -1,6 +1,7 @@
 <script lang="ts">
 	// здесь экспорт переменных из ts, можно использовать экспортированные переменные в файле
 	import { assets } from "$app/paths";
+import { text } from "svelte/internal";
 </script>
 
 <h1>camellia</h1>
@@ -23,6 +24,12 @@
 		<p class="text-center">
 			Thank you ♡
 		</p>
+		<p class="contacts text-center">
+			Contacts:<br>
+			<a href="https://t.me/saphielle">Telegram</a> | <a href="https://github.com/sialiss">GitHub</a>
+			| <a href="https://spb.hh.ru/resume/995b4b6cff094ba95c0039ed1f62705a57655a">HeadHunter</a><br>
+			<a href="https://github.com/sialiss">camellia.sialiss@gmail.com</a><br>
+		</p>
 	</div>
 </div>
 
@@ -35,5 +42,9 @@
 
 	img {
 		justify-self: center;
+	}
+
+	.contacts {
+		padding-top: 50px;
 	}
 </style>

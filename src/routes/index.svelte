@@ -15,7 +15,7 @@ import { text } from "svelte/internal";
 		</p>
 		<p>
 			My stack is a JavaScript, TypeScript, React and Svelte (this site is made in Svelte and will have a React version, for example).
-			I love frontend and am learning different things now.
+			I love frontend and am learning different things now. I also study a little C/C++ at the university, but that's another story.
 		</p>
 		<p>
 			In this site you can find my projects. Also you can touch it and read about projects, stack or something else.

@@ -25,14 +25,15 @@
         <div class="frame">
             <iframe
                 title="project"
-                src="{current_project["iframe_link"]}">
+                src="{current_project["link"]}">
             </iframe>
         </div>
-        <div class="about">
+        <div class="about text-justify">
             <h1>{current_project["name"]}</h1>
             <div class="flex">
                 <a href="{current_project["github"]}">GitHub</a>
                 <p>| {current_project["stack"]}</p>
+                | <a href="{current_project["link"]}">Site</a>
             </div>
             <p>{current_project["about"]}</p>
         </div>

@@ -30,7 +30,10 @@
         </div>
         <div class="about">
             <h1>{current_project["name"]}</h1>
-            <a href="{current_project["github"]}">GitHub</a>
+            <div class="flex">
+                <a href="{current_project["github"]}">GitHub</a>
+                <p>| {current_project["stack"]}</p>
+            </div>
             <p>{current_project["about"]}</p>
         </div>
     {/if}
@@ -56,6 +59,11 @@
 
     .about {
         padding: 20px;
+    }
+
+    .flex {
+        display: flex;
+        gap: 5px;
     }
 
     /* @media {

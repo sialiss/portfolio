@@ -1,9 +1,17 @@
 export const projects = [
     {
+        id: "portfolio",
+        name: "Portfolio",
+        preview: "/images/portfolio.png",
+        stack: "JS, Svelte",
+        iframe_link: "https://sialiss.github.io/portfolio/",
+        about: "text",
+        github: "https://github.com/sialiss/portfolio",
+    },
+    {
         id: "cards",
         name: "Cards",
         preview: "/images/cards.png",
-        link: "/project",
         stack: "JS, React",
         iframe_link: "https://sialiss.github.io/cards/",
         about: "text",
@@ -13,7 +21,6 @@ export const projects = [
         id: "json_table",
         name: "JSON Table",
         preview: "/images/table.png",
-        link: "/project",
         stack: "JS",
         iframe_link: "https://sialiss.github.io/test-infotecs/",
         about: "text",
@@ -30,13 +37,12 @@ export const projects = [
         github: "https://github.com/sialiss/Clicker",
     },
     // {
-    //     project: "",
+    //     id: "",
     //     name: "",
     //     preview: "/images/name.png",
-    //     link: "/project",
     //     stack: "",
     //     iframe_link: "",
     //     about: "text",
     //     github: "",
-    // }
+    // },
 ]

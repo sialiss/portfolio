@@ -24,11 +24,11 @@
 		justify-self: center;
 		text-align: center;
 		padding: 5px;
-		max-width: 100%;
 	}
 
 	img {
 		justify-self: center;
 		max-width: 90%;
+		object-fit: cover;
 	}
 </style>

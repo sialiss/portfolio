@@ -1,7 +1,7 @@
 <script lang="ts">
 	// здесь экспорт переменных из ts, можно использовать экспортированные переменные в файле
 	import { assets } from "$app/paths";
-import { text } from "svelte/internal";
+	import { text } from "svelte/internal";
 </script>
 
 <h1>camellia</h1>

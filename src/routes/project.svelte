@@ -8,25 +8,26 @@
         ["gamedev", projects_gamedev]
     ])
 
-    let current_project: { project?: string; name?: string; preview?: string; link?: string; stack?: string; iframe_link?: string; about?: string; github?: string; }
-
+    let current_project: { project?: string; name?: string; preview?: string; width?: string; height?: string; link?: string; stack?: string; embed_link?: string; about?: string; github?: string; }
     onMount(async () => {
 		let params = (new URL(document.location.toString())).searchParams;
         let id = params.get('id');
         let list = params.get('list');
-        if (id && list) {
-            all_projects.get(list)?.map(project => {if (project.id === id) current_project = project})}
-        }
-	);
+        if (id && list)
+            all_projects.get(list)?.map(project => {if (project.id === id) current_project = project})
+        if (list != "gamedev") current_project["embed_link"] = current_project["link"]
+    });
 </script>
 
 <div class="main wrapper">
     {#if current_project}
         <div class="frame">
-            <iframe
-                title="project"
-                src="{current_project["link"]}">
-            </iframe>
+        <iframe
+            id="iframe"
+            class="iframe"
+            title="project"
+            src="{current_project["embed_link"]}">
+        </iframe>
         </div>
         <div class="about text-justify">
             <h1>{current_project["name"]}</h1>
@@ -41,7 +42,7 @@
 </div>
 
 <style>
-    iframe {
+    .iframe {
         border: 0;
         width: 100%;
         height: 100%;

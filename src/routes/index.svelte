@@ -14,7 +14,7 @@
 			Also I am interested in gamedev, so I have some projects in it too.
 		</p>
 		<p>
-			My stack is a JavaScript, TypeScript, React and Svelte (this site is made in Svelte and will have a React version, for example).
+			My stack is a JavaScript, TypeScript, React and Svelte.
 			I love frontend and am learning different things now. I also study a little C/C++ at the university, but that's another story.
 		</p>
 		<p>

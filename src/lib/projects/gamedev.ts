@@ -6,7 +6,7 @@ export const projects = [
         name: "Flowerize",
         preview: "/images/flowerize.png",
         stack: "Godot",
-        embed_link: "https://itch.io/embed-upload/6371713?color=ACC6D0",
+        embed_link: "https://itch.io/embed-upload/6450745?color=ACC6D0",
         link: "https://saphielle.itch.io/flowerize",
         about: "Made by me and my friend for Kenney GameJam 2022. Theme: growth, 2 day limit. I created gamedesign (idea, mechanics, level design) and art (stylistics, animations, coloring, music). The assets are made by Kenney (it's the jam condition), but the player character is created from a combination of two assets, and I drew the animations frame by frame.",
         github: "https://github.com/sialiss/GMTK-gamejam2022",

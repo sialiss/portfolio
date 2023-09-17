@@ -23,4 +23,16 @@ export const projects = [
         about: "We (me and two of my friends) participated in GMTK GameJam 2022, where we had to make a game on a given topic in 48 hours. This year the theme was 'Roll the dice', so we made a game where you play as a dice that is attacked by players' pieces (hats and pawns). Depending on the number on the top edge, different abilities are used, and HP is displayed as the progress of passing the chip to the end (this is from the bottom).",
         github: "https://github.com/sialiss/GMTK-gamejam2022",
     },
+    {
+        id: "xenotrauma",
+        width: "1024",
+        height: "600",
+        name: "XenoTrauma",
+        preview: "/images/xenotrauma.png",
+        stack: "Godot",
+        embed_link: "https://itch.io/embed-uplhttps://itch.io/https://itch.io/embed-upload/8287029?color=0f153b-upload/8287029?color=0f153boad/6179916?color=333333",
+        link: "https://saphielle.itch.io/xenotrauma",
+        about: "We (me and two of my friends) participated in GMTK GameJam 2023, where we had to make a game on a given topic in 48 hours. That year the theme was 'Roles reversed', so we made a game where you play as a monster in the sea. Our theme is based on Barotrauma.",
+        github: "https://github.com/sialiss/GMTK-gamejam2023",
+    },
 ]

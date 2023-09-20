@@ -6,7 +6,7 @@
 
 <h1>camellia</h1>
 <div class="wrapper about">
-	<img src="{assets}/images/me1.jpg" alt="me" height="450px">
+	<img src="{assets}/images/me3.jpg" alt="me" height="450px">
 	<div class="text-justify">
 		<p class="text-center">Welcome to my portfolio!</p>
 		<p>

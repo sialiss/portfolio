@@ -6,7 +6,7 @@ export const projects = [
         name: "XenoTrauma",
         preview: "/images/xenotrauma.png",
         stack: "Godot",
-        embed_link: "https://itch.io/embed-uplhttps://itch.io/https://itch.io/embed-upload/8287029?color=0f153b-upload/8287029?color=0f153boad/6179916?color=333333",
+        embed_link: "https://itch.io/embed-upload/8287029?color=0f153b",
         link: "https://saphielle.itch.io/xenotrauma",
         about: "We (me and two of my friends) participated in GMTK GameJam 2023, where we had to make a game on a given topic in 48 hours. That year the theme was 'Roles reversed', so we made a game where you play as a monster in the sea. Our theme is based on Barotrauma.",
         github: "https://github.com/sialiss/GMTK-gamejam2023",

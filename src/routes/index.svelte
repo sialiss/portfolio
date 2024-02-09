@@ -27,8 +27,7 @@
 		<p class="contacts text-center">
 			Contacts:<br>
 			<a href="https://t.me/saphielle">Telegram</a> | <a href="https://github.com/sialiss">GitHub</a>
-			| <a href="https://spb.hh.ru/resume/995b4b6cff094ba95c0039ed1f62705a57655a">HeadHunter</a><br>
-			<a href="https://github.com/sialiss">camellia.sialiss@gmail.com</a><br>
+			camellia.sialiss@gmail.com<br>
 		</p>
 	</div>
 </div>

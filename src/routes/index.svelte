@@ -26,8 +26,8 @@
 		</p>
 		<p class="contacts text-center">
 			Contacts:<br>
-			<a href="https://t.me/saphielle">Telegram</a> | <a href="https://github.com/sialiss">GitHub</a>
-			camellia.sialiss@gmail.com<br>
+			<a href="https://t.me/saphielle">Telegram</a> | <a href="https://github.com/sialiss">GitHub</a><br>
+			<span>camellia.sialiss@gmail.com</span><br>
 		</p>
 	</div>
 </div>

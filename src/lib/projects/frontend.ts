@@ -1,6 +1,15 @@
 // картинка 1920х890
 export const projects = [
     {
+        id: "shelter",
+        name: "Shelter",
+        preview: "/images/shelter.png",
+        stack: "JS, Vue",
+        link: "https://sialiss.github.io/some-shelter-for-frontend/",
+        about: "A website for one of the subjects at the university. I used Vue for it (I was interested to know how it works), for the layout I slightly changed the layout from the RS School course.",
+        github: "https://github.com/sialiss/some-shelter-for-frontend",
+    },
+    {
         id: "portfolio",
         name: "Portfolio",
         preview: "/images/portfolio.png",

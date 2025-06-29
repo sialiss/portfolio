@@ -65,6 +65,12 @@ h2 {
 	display: grid;
 }
 
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 pre {
 	font-size: 16px;
 	font-family: var(--font-mono);

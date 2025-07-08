@@ -10,15 +10,15 @@
 	<div class="text-justify vertical-center">
 		<p class="text-center">Welcome to my portfolio!</p>
 		<p>
-			My name is Sveta, I'm a student and a web development fan ヽ(・∀・)ﾉ
-			Also I am interested in gamedev, so I have some projects in it too.
+			My name is Sveta, I'm a web development fan ヽ(・∀・)ﾉ  
+			Also I love gamedev, so I have some projects in it too.
 		</p>
 		<p>
-			My stack is a JavaScript, TypeScript, React and Svelte.
-			I love frontend and am learning different things now. I also study a little C/C++ at the university, but that's another story.
+			My stack is a JavaScript, TypeScript and Vue. I'm also interested in Svetle and React.
+			I also study a little python and C/C++ at the university, but that's another story.
 		</p>
 		<p>
-			In this site you can find my projects. Also you can touch it and read about projects, stack or something else.
+			In this site you can find my projects. You can touch it and read about projects, stack or something else.
 			And there is a link to the github!
 		</p>
 		<p class="text-center">
@@ -27,7 +27,6 @@
 		<p class="contacts text-center">
 			Contacts:<br>
 			<a href="https://t.me/saphielle">Telegram</a> | <a href="https://github.com/sialiss">GitHub</a><br>
-			<span>camellia.sialiss@gmail.com</span><br>
 		</p>
 	</div>
 </div>

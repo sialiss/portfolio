@@ -1,39 +1,41 @@
 {
-  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
-  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
-  },
   "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
     "file": "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-6f48257b.js",
+    "file": "_app/immutable/start-51c38adb.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-33f9ac08.js",
-      "_paths-b9644fda.js"
+      "_index-f79af691.js",
+      "_index-caf97889.js",
+      "_paths-b9644fda.js",
+      "_preload-helper-fd5e5b94.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -45,16 +47,23 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "_app/immutable/pages/__layout.svelte-e739d27e.js",
+    "file": "_app/immutable/pages/__layout.svelte-8d5b7fa0.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-33f9ac08.js",
-      "_paths-b9644fda.js"
+      "_index-f79af691.js",
+      "_preload-helper-fd5e5b94.js",
+      "_runtime-6eb853bc.js",
+      "_paths-b9644fda.js",
+      "_index-caf97889.js"
+    ],
+    "dynamicImports": [
+      "src/lib/i18n/en.json",
+      "src/lib/i18n/ru.json"
     ],
     "css": [
-      "_app/immutable/assets/__layout-ce24fca7.css"
+      "_app/immutable/assets/__layout-c3cf0885.css"
     ],
     "assets": [
       "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
@@ -67,99 +76,132 @@
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "_app/immutable/error.svelte-a8bb2325.js",
+    "file": "_app/immutable/error.svelte-4dc5619c.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-33f9ac08.js"
+      "_index-f79af691.js"
     ]
   },
   "src/routes/frontend.svelte": {
-    "file": "_app/immutable/pages/frontend.svelte-8019d1c5.js",
+    "file": "_app/immutable/pages/frontend.svelte-5d312072.js",
     "src": "src/routes/frontend.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-33f9ac08.js",
+      "_index-f79af691.js",
       "_paths-b9644fda.js",
-      "_frontend-f6292d4f.js"
+      "_frontend-0dc29fe9.js",
+      "_runtime-6eb853bc.js",
+      "_index-caf97889.js"
     ],
     "css": [
       "_app/immutable/assets/frontend-11a72fb7.css"
     ]
   },
   "src/routes/gamedev.svelte": {
-    "file": "_app/immutable/pages/gamedev.svelte-d5e22842.js",
+    "file": "_app/immutable/pages/gamedev.svelte-b44e5563.js",
     "src": "src/routes/gamedev.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-33f9ac08.js",
+      "_index-f79af691.js",
       "_paths-b9644fda.js",
-      "_gamedev-6361b794.js"
+      "_gamedev-faa889f4.js",
+      "_runtime-6eb853bc.js",
+      "_index-caf97889.js"
     ],
     "css": [
       "_app/immutable/assets/gamedev-c07e6994.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-0b3ee816.js",
+    "file": "_app/immutable/pages/index.svelte-25628f17.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-33f9ac08.js",
-      "_paths-b9644fda.js"
+      "_index-f79af691.js",
+      "_paths-b9644fda.js",
+      "_runtime-6eb853bc.js",
+      "_index-caf97889.js"
     ],
     "css": [
       "_app/immutable/assets/index-66495802.css"
     ]
   },
   "src/routes/project.svelte": {
-    "file": "_app/immutable/pages/project.svelte-3435c7c8.js",
+    "file": "_app/immutable/pages/project.svelte-875b0b5b.js",
     "src": "src/routes/project.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-33f9ac08.js",
-      "_frontend-f6292d4f.js",
-      "_gamedev-6361b794.js"
+      "_index-f79af691.js",
+      "_frontend-0dc29fe9.js",
+      "_gamedev-faa889f4.js",
+      "_runtime-6eb853bc.js",
+      "_index-caf97889.js"
     ],
     "css": [
-      "_app/immutable/assets/project-3b432e1e.css"
+      "_app/immutable/assets/project-0cc6abcd.css"
     ]
   },
-  "_index-33f9ac08.js": {
-    "file": "_app/immutable/chunks/index-33f9ac08.js"
+  "_index-f79af691.js": {
+    "file": "_app/immutable/chunks/index-f79af691.js"
+  },
+  "_index-caf97889.js": {
+    "file": "_app/immutable/chunks/index-caf97889.js",
+    "imports": [
+      "_index-f79af691.js"
+    ]
   },
   "_paths-b9644fda.js": {
     "file": "_app/immutable/chunks/paths-b9644fda.js"
   },
-  "_frontend-f6292d4f.js": {
-    "file": "_app/immutable/chunks/frontend-f6292d4f.js"
+  "_preload-helper-fd5e5b94.js": {
+    "file": "_app/immutable/chunks/preload-helper-fd5e5b94.js"
   },
-  "_gamedev-6361b794.js": {
-    "file": "_app/immutable/chunks/gamedev-6361b794.js"
+  "_runtime-6eb853bc.js": {
+    "file": "_app/immutable/chunks/runtime-6eb853bc.js",
+    "imports": [
+      "_index-caf97889.js"
+    ]
   },
-  "src/routes/frontend.css": {
-    "file": "_app/immutable/assets/frontend-11a72fb7.css",
-    "src": "src/routes/frontend.css"
+  "_frontend-0dc29fe9.js": {
+    "file": "_app/immutable/chunks/frontend-0dc29fe9.js"
+  },
+  "_gamedev-faa889f4.js": {
+    "file": "_app/immutable/chunks/gamedev-faa889f4.js"
+  },
+  "src/lib/i18n/en.json": {
+    "file": "_app/immutable/chunks/en-556695bd.js",
+    "src": "src/lib/i18n/en.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/i18n/ru.json": {
+    "file": "_app/immutable/chunks/ru-792565a2.js",
+    "src": "src/lib/i18n/ru.json",
+    "isDynamicEntry": true
+  },
+  "src/routes/__layout.css": {
+    "file": "_app/immutable/assets/__layout-c3cf0885.css",
+    "src": "src/routes/__layout.css"
   },
   "src/routes/gamedev.css": {
     "file": "_app/immutable/assets/gamedev-c07e6994.css",
     "src": "src/routes/gamedev.css"
   },
-  "src/routes/project.css": {
-    "file": "_app/immutable/assets/project-3b432e1e.css",
-    "src": "src/routes/project.css"
-  },
   "src/routes/index.css": {
     "file": "_app/immutable/assets/index-66495802.css",
     "src": "src/routes/index.css"
   },
-  "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-ce24fca7.css",
-    "src": "src/routes/__layout.css"
+  "src/routes/frontend.css": {
+    "file": "_app/immutable/assets/frontend-11a72fb7.css",
+    "src": "src/routes/frontend.css"
+  },
+  "src/routes/project.css": {
+    "file": "_app/immutable/assets/project-0cc6abcd.css",
+    "src": "src/routes/project.css"
   }
 }

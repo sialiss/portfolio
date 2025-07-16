@@ -9,7 +9,7 @@ export const projects = [
 		about_en:
 			'My graduate work. Here, interaction with the server and database is also connected, but only the frontend is hosted. This is a training system for driving schools, which would combine both practice and theory.',
 		about_ru:
-			'Моя выпускная работа. Здесь также реализовано взаимодействие с сервером и базой данных, но хостится только фронтенд без сервера. Это обучающая система для автошкол, объединяющая теорию и практику.',
+			'Моя выпускная работа. Здесь также реализовано взаимодействие с сервером и базой данных, но хостится только фронтенд без сервера. Это обучающая система для автошкол, объединяющая теорию и практику. Уроки заполнены в качестве примера функционала, есть также пример практики в одном из уроков.',
 		github: 'https://github.com/sialiss/cool-three-js-educational-app'
 	},
 	{

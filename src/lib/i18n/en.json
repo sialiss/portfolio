@@ -1,0 +1,30 @@
+{
+	"contacts": {
+		"telegram": "telegram",
+		"github": "github"
+	},
+	"nav": {
+		"about": "About me",
+		"frontend": "Frontend",
+		"gamedev": "GameDev"
+	},
+	"about": {
+		"title": "camellia",
+		"welcome": "Welcome to my portfolio!",
+		"intro": "My name is Sveta, I'm a web development fan ヽ(・∀・)ﾉ Also I love gamedev, so I have some projects in it too.",
+		"stack": "My stack is JavaScript, TypeScript and Vue. I'm also interested in Svelte and React. I also study a little Python and C/C++ at the university, but that's another story.",
+		"explore": "In this site you can find my projects. You can touch it and read about projects, stack or something else. And there is a link to the GitHub!",
+		"thanks": "Thank you ♡",
+		"contacts": "Contacts:"
+	},
+	"frontend": {
+		"title": "My projects"
+	},
+	"gamedev": {
+		"title": "My projects"
+	},
+	"projects": {
+		"github": "GitHub",
+		"site": "Site"
+	}
+}

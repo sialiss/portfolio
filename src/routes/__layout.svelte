@@ -1,13 +1,23 @@
 <script lang="ts">
+	import '$lib/i18n';
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
+	import { waitLocale } from 'svelte-i18n';
+	import { onMount } from 'svelte';
+	let ready = false;
+
+	onMount(async () => {
+		await waitLocale();
+		ready = true;
+	});
 </script>
 
-<Header />
-
-<main>
-	<slot />
-</main>
+{#if ready}
+	<Header />
+	<main>
+		<slot />
+	</main>
+{/if}
 
 <style>
 	main {

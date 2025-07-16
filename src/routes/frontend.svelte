@@ -1,16 +1,19 @@
 <script lang="ts">
-	import { assets } from "$app/paths";
-	import { base } from "$app/paths";
-	import { projects } from "$lib/projects/frontend";
+	import { assets, base } from '$app/paths';
+	import { projects } from '$lib/projects/frontend';
+	import { locale, _ } from 'svelte-i18n';
+
+	const t = _;
+	locale.subscribe((value) => ($locale = value));
 </script>
 
-<h1>My projects</h1>
+<h1>{$t('frontend.title')}</h1>
 <div class="wrapper content">
 	{#each projects as project}
-		<a class="cell wrapper" href="{base}/project?id={project["id"]}&list=frontend">
-			<img src="{assets}{project["preview"]}" alt="project preview">
-			<h2>{project["name"]}</h2>
-			<p>{project["stack"]}</p>
+		<a class="cell wrapper" href="{base}/project?id={project.id}&list=frontend">
+			<img src="{assets}{project.preview}" alt="project preview" />
+			<h2>{project.name}</h2>
+			<p>{project.stack}</p>
 		</a>
 	{/each}
 </div>

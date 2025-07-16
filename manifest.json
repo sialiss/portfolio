@@ -11,24 +11,24 @@
     "file": "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
     "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
   },
-  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
-    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
-    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
   },
   "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
     "file": "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-51c38adb.js",
+    "file": "_app/immutable/start-987fc71f.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "_app/immutable/pages/__layout.svelte-8d5b7fa0.js",
+    "file": "_app/immutable/pages/__layout.svelte-c2fef8e9.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -180,7 +180,7 @@
     "isDynamicEntry": true
   },
   "src/lib/i18n/ru.json": {
-    "file": "_app/immutable/chunks/ru-792565a2.js",
+    "file": "_app/immutable/chunks/ru-00ec224e.js",
     "src": "src/lib/i18n/ru.json",
     "isDynamicEntry": true
   },
@@ -192,10 +192,6 @@
     "file": "_app/immutable/assets/gamedev-c07e6994.css",
     "src": "src/routes/gamedev.css"
   },
-  "src/routes/index.css": {
-    "file": "_app/immutable/assets/index-66495802.css",
-    "src": "src/routes/index.css"
-  },
   "src/routes/frontend.css": {
     "file": "_app/immutable/assets/frontend-11a72fb7.css",
     "src": "src/routes/frontend.css"
@@ -203,5 +199,9 @@
   "src/routes/project.css": {
     "file": "_app/immutable/assets/project-0cc6abcd.css",
     "src": "src/routes/project.css"
+  },
+  "src/routes/index.css": {
+    "file": "_app/immutable/assets/index-66495802.css",
+    "src": "src/routes/index.css"
   }
 }

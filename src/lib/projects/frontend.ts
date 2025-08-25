@@ -4,7 +4,7 @@ export const projects = [
 		id: 'autolab',
 		name: 'Autolab',
 		preview: '/images/autolab.png',
-		stack: 'TS, Vue, Nuxt',
+		stack: 'TS, Vue, Nuxt3',
 		link: 'https://sialiss.github.io/cool-three-js-educational-app/',
 		about_en:
 			'My graduate work. Here, interaction with the server and database is also connected, but only the frontend is hosted. This is a training system for driving schools, which would combine both practice and theory.',
@@ -23,6 +23,18 @@ export const projects = [
 		about_ru:
 			'Сайт для одного из университетских предметов. Я использовала Vue (было интересно разобраться, как он работает), а вёрстку немного изменила по сравнению с макетом из курса RS School, который я однажды проходила.',
 		github: 'https://github.com/sialiss/some-shelter-for-frontend'
+	},
+	{
+		id: 'product',
+		name: 'Online product',
+		preview: '/images/product.png',
+		stack: 'TS, Vue, Nuxt3',
+		link: 'https://sialiss.github.io/tt-stik/product/',
+		about_en:
+			'Page with the product for the Stik test task. Implemented according to the provided layout, animations and intermediate adaptability were made at my choice.',
+		about_ru:
+			'Страница с продуктом для тестового задания Stik. Реализовано по предоставленному макету, по моему выбору сделаны анимации и промежуточная адаптивность.',
+		github: 'https://github.com/sialiss/tt-stik'
 	},
 	{
 		id: 'portfolio',

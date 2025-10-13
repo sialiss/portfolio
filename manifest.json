@@ -28,7 +28,7 @@
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-5ca7c0be.js",
+    "file": "_app/immutable/start-c5fcae64.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -101,14 +101,14 @@
     ]
   },
   "src/routes/gamedev.svelte": {
-    "file": "_app/immutable/pages/gamedev.svelte-b44e5563.js",
+    "file": "_app/immutable/pages/gamedev.svelte-bfdd098d.js",
     "src": "src/routes/gamedev.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f79af691.js",
       "_paths-b9644fda.js",
-      "_gamedev-faa889f4.js",
+      "_gamedev-93978d48.js",
       "_runtime-6eb853bc.js",
       "_index-caf97889.js"
     ],
@@ -132,14 +132,14 @@
     ]
   },
   "src/routes/project.svelte": {
-    "file": "_app/immutable/pages/project.svelte-839fccfb.js",
+    "file": "_app/immutable/pages/project.svelte-5d2eaf0a.js",
     "src": "src/routes/project.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-f79af691.js",
       "_frontend-9fdeea88.js",
-      "_gamedev-faa889f4.js",
+      "_gamedev-93978d48.js",
       "_runtime-6eb853bc.js",
       "_index-caf97889.js"
     ],
@@ -171,8 +171,8 @@
   "_frontend-9fdeea88.js": {
     "file": "_app/immutable/chunks/frontend-9fdeea88.js"
   },
-  "_gamedev-faa889f4.js": {
-    "file": "_app/immutable/chunks/gamedev-faa889f4.js"
+  "_gamedev-93978d48.js": {
+    "file": "_app/immutable/chunks/gamedev-93978d48.js"
   },
   "src/lib/i18n/en.json": {
     "file": "_app/immutable/chunks/en-556695bd.js",
@@ -183,6 +183,14 @@
     "file": "_app/immutable/chunks/ru-00ec224e.js",
     "src": "src/lib/i18n/ru.json",
     "isDynamicEntry": true
+  },
+  "src/routes/__layout.css": {
+    "file": "_app/immutable/assets/__layout-c3cf0885.css",
+    "src": "src/routes/__layout.css"
+  },
+  "src/routes/gamedev.css": {
+    "file": "_app/immutable/assets/gamedev-c07e6994.css",
+    "src": "src/routes/gamedev.css"
   },
   "src/routes/frontend.css": {
     "file": "_app/immutable/assets/frontend-11a72fb7.css",
@@ -195,13 +203,5 @@
   "src/routes/project.css": {
     "file": "_app/immutable/assets/project-0cc6abcd.css",
     "src": "src/routes/project.css"
-  },
-  "src/routes/gamedev.css": {
-    "file": "_app/immutable/assets/gamedev-c07e6994.css",
-    "src": "src/routes/gamedev.css"
-  },
-  "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-c3cf0885.css",
-    "src": "src/routes/__layout.css"
   }
 }

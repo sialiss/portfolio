@@ -1,4 +1,18 @@
+// картинка 1024х600
 export const projects = [
+	{
+		id: 'fish_revolution',
+		width: '1024',
+		height: '600',
+		name: 'Fish!Revolution',
+		preview: '/images/fish_revolution.png',
+		stack: 'Godot',
+		embed_link: 'https://itch.io/embed-upload/15235000?color=333333',
+		link: 'https://saphielle.itch.io/fishrevolution',
+		about_en: 'Made by me and my friends for a jam session in 5 days. Theme: revolution.',
+		about_ru: 'Сделано в команде мной и моими друзьями для джема за 5 дней. Тема: revolution.',
+		github: 'https://github.com/sialiss/interstellar-gamejam2025'
+	},
 	{
 		id: 'xenotrauma',
 		width: '1024',

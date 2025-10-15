@@ -25,15 +25,27 @@ export const projects = [
 		github: 'https://github.com/sialiss/some-shelter-for-frontend'
 	},
 	{
+		id: 'car-map',
+		name: 'Car map',
+		preview: '/images/car-map.png',
+		stack: 'TS, Vue',
+		link: 'https://sialiss.github.io/car-panel/',
+		about_en:
+			'The panel with a list of available machines, obtained from API, allows users to add, edit, and delete machines, as well as display them on a map, in accordance with the technical specifications.',
+		about_ru:
+			'Панель со списком доступных машин, который получен через API, по ТЗ реализована возможность добавлять, редактировать и удалять машины, а также их отображение на карте.',
+		github: 'https://github.com/sialiss/car-panel'
+	},
+	{
 		id: 'product',
 		name: 'Online product',
 		preview: '/images/product.png',
 		stack: 'TS, Vue, Nuxt3',
 		link: 'https://sialiss.github.io/tt-stik/product/',
 		about_en:
-			'Page with the product for the Stik test task. Implemented according to the provided layout, animations and intermediate adaptability were made at my choice.',
+			'Page with the product. Implemented according to the provided layout, animations and intermediate adaptability were made at my choice.',
 		about_ru:
-			'Страница с продуктом для тестового задания Stik. Реализовано по предоставленному макету, по моему выбору сделаны анимации и промежуточная адаптивность.',
+			'Страница с товаром. Реализовано по предоставленному макету, по моему выбору сделаны анимации и промежуточная адаптивность.',
 		github: 'https://github.com/sialiss/tt-stik'
 	},
 	{
